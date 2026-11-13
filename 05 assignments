@@ -1,0 +1,59 @@
+name = ["abi", "akash", "alex"]
+
+print("First element:", name[0])
+First element: abi
+
+name = ["abi", "akash", "alex"]
+
+print(name[1:2])
+['akash']
+
+name = ["abi", "akash", "alex"]
+
+name.append("priya")
+
+print(name) 
+
+['abi', 'akash', 'alex', 'priya']
+
+name = ["abi", "akash", "alex"]
+
+name.extend(["ajay", "ajith"])
+
+print(name)
+
+['abi', 'akash', 'alex', 'ajay', 'ajith']
+
+
+name = ["abi", "akash", "alex"]
+
+name.insert(1, "jack")
+
+print(name)
+['abi', 'jack', 'akash', 'alex']
+
+num = [10, 2, 2, 1, 18]
+
+num.sort()
+print("Sorted list:", num)
+
+num.reverse()
+print("Reversed list:", num)
+Sorted list: [1, 2, 2, 10, 18]
+Reversed list: [18, 10, 2, 2, 1]
+
+course = ["python", "java", "django"]
+
+course.remove("java")
+
+print(course)
+['python', 'django']
+
+course = ["python", "java", "django"]
+
+s = set(course)
+
+print(s)
+
+{'python', 'java', 'django'}
+
